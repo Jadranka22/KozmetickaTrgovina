@@ -12,7 +12,6 @@ namespace KozmetickaTrgovina
         SqlConnection cn = new SqlConnection();
         SqlCommand cm = new SqlCommand();
         SqlDataReader dr;
-        private double dailybirthdays;
         public string MyConnection()
         {
             string con = @"Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=KozmetickiSalon;Integrated Security=True";
